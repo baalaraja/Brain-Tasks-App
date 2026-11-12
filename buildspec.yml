@@ -12,7 +12,7 @@ phases:
       - echo "Logging in to Amazon ECR..."
       
 
-      - docker login --baalamurughan --password-stdin dckr_pat_51tnlvHO29zyATsi6Ca_IJuV48s
+      - docker login -u baalamurughan --password-stdin dckr_pat_51tnlvHO29zyATsi6Ca_IJuV48s
     
 
   build:
